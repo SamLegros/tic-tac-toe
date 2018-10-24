@@ -1,0 +1,194 @@
+body {
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    background-color: #86BBD8;
+}
+
+.container {
+    margin: 0px auto;
+    margin-top: 30px;
+    width: 500px;
+    background-color: #FFFFFF;
+    border: 8px solid #33658A;
+    border-radius: 25px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.title {
+    color: #33658A;
+}
+
+.startScreenDiv {
+    margin: 0px auto;
+    margin-top: 20px;
+    height: 415px;
+}
+
+.startScreenTitle {
+    font-size: 24px;
+    color: #33658A;
+    animation-delay: 1.5s;
+}
+
+.startScreenChoices {
+    margin-top: 50px;
+    font-size: 150px;
+    color: #33658A;
+}
+
+.xChoice {
+    color: #F26419;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.oChoice {
+    color: #F6AE2D;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.xChoice:hover,
+.oChoice:hover {
+    color: #86BBD8;
+    cursor: pointer;
+}
+
+.gameDiv {
+    margin: 0px auto;
+    margin-top: 20px;
+    width: 300px;
+    height: 415px;
+}
+
+.gameTurnStatus {
+    font-size: 24px;
+    color: #33658A;
+    margin-bottom: 15px;
+}
+
+#sq1 {
+    height: 100px;
+    font-size: 100px;
+    line-height: 90px;
+    border-right: 3px solid #33658A;
+    border-bottom: 3px solid #33658A;
+    cursor: pointer;
+}
+
+#sq2 {
+    height: 100px;
+    font-size: 100px;
+    line-height: 90px;
+    border-right: 3px solid #33658A;
+    border-bottom: 3px solid #33658A;
+    border-left: 3px solid #33658A;
+    cursor: pointer;
+}
+
+#sq3 {
+    height: 100px;
+    font-size: 100px;
+    line-height: 90px;
+    border-bottom: 3px solid #33658A;
+    border-left: 3px solid #33658A;
+    cursor: pointer;
+}
+
+#sq4 {
+    height: 100px;
+    font-size: 100px;
+    line-height: 90px;
+    border-top: 3px solid #33658A;
+    border-right: 3px solid #33658A;
+    border-bottom: 3px solid #33658A;
+    cursor: pointer;
+}
+
+#sq5 {
+    height: 100px;
+    font-size: 100px;
+    line-height: 90px;
+    border-top: 3px solid #33658A;
+    border-right: 3px solid #33658A;
+    border-bottom: 3px solid #33658A;
+    border-left: 3px solid #33658A;
+    cursor: pointer;
+}
+
+#sq6 {
+    height: 100px;
+    font-size: 100px;
+    line-height: 90px;
+    border-top: 3px solid #33658A;
+    border-bottom: 3px solid #33658A;
+    border-left: 3px solid #33658A;
+    cursor: pointer;
+}
+
+#sq7 {
+    height: 100px;
+    font-size: 100px;
+    line-height: 90px;
+    border-top: 3px solid #33658A;
+    border-right: 3px solid #33658A;
+    cursor: pointer;
+}
+
+#sq8 {
+    height: 100px;
+    font-size: 100px;
+    line-height: 90px;
+    border-top: 3px solid #33658A;
+    border-right: 3px solid #33658A;
+    border-left: 3px solid #33658A;
+    cursor: pointer;
+}
+
+#sq9 {
+    height: 100px;
+    font-size: 100px;
+    line-height: 90px;
+    border-top: 3px solid #33658A;
+    border-left: 3px solid #33658A;
+    cursor: pointer;
+}
+
+.resetP {
+    margin-top: 15px;
+}
+
+.reset {
+    font-size: 24px;
+    color: #33658A;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.reset:hover {
+    color: #86BBD8;
+    cursor: pointer;
+}
+
+.myFooter {
+    margin-top: 20px;
+    font-size: 12px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+a:link, a:visited, a:hover {
+    text-decoration: none;
+    color: #FFFFFF;
+}
